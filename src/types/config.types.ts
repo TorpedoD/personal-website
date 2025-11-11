@@ -166,7 +166,7 @@ export type SocialSharingConfig = {
 };
 
 /**
- * Top-level config types for once-ui.config.js
+ * Top-level config types for once-ui.config.ts
  */
 export type OnceUIConfig = {
   display: DisplayConfig;

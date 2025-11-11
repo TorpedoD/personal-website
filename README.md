@@ -1,6 +1,6 @@
 # Magic Portfolio
 
-Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, an about / CV page and a gallery.
+Magic Portfolio is a simple, clean, beginner-friendly portfolio template. It supports an MDX-based content system for projects and blog posts, plus an about / CV page.
 
 View the demo [here](https://demo.magic-portfolio.com).
 
@@ -25,12 +25,12 @@ npm run dev
 
 **4. Edit config**
 ```
-src/resources/once-ui.config.js
+src/resources/once-ui.config.ts
 ```
 
 **5. Edit content**
 ```
-src/resources/content.js
+src/resources/content.tsx
 ```
 
 **6. Create blog posts / projects**
@@ -60,7 +60,7 @@ Docs available at: [docs.once-ui.com](https://docs.once-ui.com/docs/magic-portfo
 
 ### Content
 - Render sections conditionally based on the content file
-- Enable or disable pages for blog, work, gallery and about / CV
+- Enable or disable pages for the blog, work, and about / CV sections
 - Generate and display social links automatically
 - Set up password protection for URLs
 
