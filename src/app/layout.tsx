@@ -45,7 +45,7 @@ export default async function RootLayout({
         fonts.code.variable,
       )}
     >
-      <SpeedInsights />
+      <SpeedInsights/>
       <head>
         <script
           id="theme-init"
